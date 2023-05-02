@@ -17,7 +17,7 @@ const MemoryGame = () => {
             <Cards />
         </div>
         </div>
-            <Footer/>
+           <Footer/>
         </div>
         
         
