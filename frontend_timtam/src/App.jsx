@@ -6,6 +6,7 @@ import Games from "./pages/Games";
 import Dashboard from "./pages/Dashboard";
 import SignIn from "./pages/SignIn";
 import MemoryGame from "./pages/MemoryGame";
+import Article from "./pages/Article";
 
 function App () {
   return (
@@ -21,6 +22,7 @@ function App () {
         <Route path="/dashboard" element={<Dashboard />}/>
         <Route path="/signin" element={<SignIn />}/>
         <Route path="/memorygame" element={<MemoryGame />}/>
+        <Route path="/artikel1" element={<Article />}/>
       </Routes>
     </Router>
   )

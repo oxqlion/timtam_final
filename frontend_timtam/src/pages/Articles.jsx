@@ -30,9 +30,10 @@ const Articles = () =>{
                                     <span></span>
                                     <p>Senin, 10 April 2023</p>
                                 </div>
-                                <h4>Raih Tingkat kebahagiaan Maksimal di <br/>Tengah Keterbatasan Fisik</h4>
-                                <p>Keterbatasan memunculkan stigma terhadap <br/> kelompok difabel, namun menjadi individu dengan <br/> disabilitas tidak menjadikan Dolos putus asa dengan <br/> keterbatasan untuk meraih pekerjaan impiannya.</p>
-                                <button className="baca_selengkapnya">Baca Selengkapnya</button>
+                                <h4>Apa Itu Anxiety Disorder?  <br/> Kenali Gejala dan Pengobatannya</h4>
+                                <p>Sobat TIMTAM pasti pernah merasa cemas dan takut saat ingin memulai aktivitas yang belum pernah dialami, seperti interview di tempat bekerja yang Anda lamar, atau saat ingin berpidato di atas panggung.Perasaan tersebut sebenarnya normal terjadi. Akan tetapi...</p>
+                                <Link to="/artikel1" className="baca_selengkapnya">Baca Selengkapnya</Link>
+                                {/* <button className="baca_selengkapnya">Baca Selengkapnya</button> */}
                             </div>
                             <div className="article_card">
                                 <img src="../../assets/raih impian.png" alt="" />
@@ -42,8 +43,8 @@ const Articles = () =>{
                                     <p>Senin, 10 April 2023</p>
                                 </div>
                                 <h4>Raih Tingkat kebahagiaan Maksimal di <br/>Tengah Keterbatasan Fisik</h4>
-                                <p>Keterbatasan memunculkan stigma terhadap <br/> kelompok difabel, namun menjadi individu dengan <br/> disabilitas tidak menjadikan Dolos putus asa dengan <br/> keterbatasan untuk meraih pekerjaan impiannya.</p>
-                                <button className="baca_selengkapnya">Baca Selengkapnya</button>
+                                <p>Sobat TIMTAM pasti pernah merasa cemas dan takut saat ingin memulai aktivitas yang belum pernah dialami, seperti interview di tempat bekerja yang Anda lamar, atau saat ingin berpidato di atas panggung.Perasaan tersebut sebenarnya normal terjadi. Akan tetapi...</p>
+                                <Link to="/artikel1" className="baca_selengkapnya">Baca Selengkapnya</Link>
                             </div>
                             <div className="article_card">
                                 <img src="../../assets/kecerdasan emosional.png" alt="" />
@@ -53,8 +54,8 @@ const Articles = () =>{
                                     <p>Senin, 10 April 2023</p>
                                 </div>
                                 <h4>Raih Tingkat kebahagiaan Maksimal di <br/>Tengah Keterbatasan Fisik</h4>
-                                <p>Keterbatasan memunculkan stigma terhadap <br/> kelompok difabel, namun menjadi individu dengan <br/> disabilitas tidak menjadikan Dolos putus asa dengan <br/> keterbatasan untuk meraih pekerjaan impiannya.</p>
-                                <button className="baca_selengkapnya">Baca Selengkapnya</button>
+                                <p>Sobat TIMTAM pasti pernah merasa cemas dan takut saat ingin memulai aktivitas yang belum pernah dialami, seperti interview di tempat bekerja yang Anda lamar, atau saat ingin berpidato di atas panggung.Perasaan tersebut sebenarnya normal terjadi. Akan tetapi...</p>
+                                <Link to="/artikel1" className="baca_selengkapnya">Baca Selengkapnya</Link>
                             </div>
                             <div className="article_card">
                                 <img src="../../assets/wear-face-mask.png" alt="" />
@@ -64,8 +65,8 @@ const Articles = () =>{
                                     <p>Senin, 10 April 2023</p>
                                 </div>
                                 <h4>Raih Tingkat kebahagiaan Maksimal di <br/>Tengah Keterbatasan Fisik</h4>
-                                <p>Keterbatasan memunculkan stigma terhadap <br/> kelompok difabel, namun menjadi individu dengan <br/> disabilitas tidak menjadikan Dolos putus asa dengan <br/> keterbatasan untuk meraih pekerjaan impiannya.</p>
-                                <button className="baca_selengkapnya">Baca Selengkapnya</button>
+                                <p>Sobat TIMTAM pasti pernah merasa cemas dan takut saat ingin memulai aktivitas yang belum pernah dialami, seperti interview di tempat bekerja yang Anda lamar, atau saat ingin berpidato di atas panggung.Perasaan tersebut sebenarnya normal terjadi. Akan tetapi...</p>
+                                <Link to="/artikel1" className="baca_selengkapnya">Baca Selengkapnya</Link>
                             </div>
                             <div className="article_card">
                                 <img src="../../assets/Terapi Kognitif.png" alt="" />
@@ -75,8 +76,8 @@ const Articles = () =>{
                                     <p>Senin, 10 April 2023</p>
                                 </div>
                                 <h4>Raih Tingkat kebahagiaan Maksimal di <br/>Tengah Keterbatasan Fisik</h4>
-                                <p>Keterbatasan memunculkan stigma terhadap <br/> kelompok difabel, namun menjadi individu dengan <br/> disabilitas tidak menjadikan Dolos putus asa dengan <br/> keterbatasan untuk meraih pekerjaan impiannya.</p>
-                                <button className="baca_selengkapnya">Baca Selengkapnya</button>
+                                <p>Sobat TIMTAM pasti pernah merasa cemas dan takut saat ingin memulai aktivitas yang belum pernah dialami, seperti interview di tempat bekerja yang Anda lamar, atau saat ingin berpidato di atas panggung.Perasaan tersebut sebenarnya normal terjadi. Akan tetapi...</p>
+                                <Link to="/artikel1" className="baca_selengkapnya">Baca Selengkapnya</Link>
                             </div>
                             <div className="article_card">
                                 <img src="../../assets/yoga.png" alt="" />
@@ -86,8 +87,8 @@ const Articles = () =>{
                                     <p>Senin, 10 April 2023</p>
                                 </div>
                                 <h4>Raih Tingkat kebahagiaan Maksimal di <br/>Tengah Keterbatasan Fisik</h4>
-                                <p>Keterbatasan memunculkan stigma terhadap <br/> kelompok difabel, namun menjadi individu dengan <br/> disabilitas tidak menjadikan Dolos putus asa dengan <br/> keterbatasan untuk meraih pekerjaan impiannya.</p>
-                                <button className="baca_selengkapnya">Baca Selengkapnya</button>
+                                <p>Sobat TIMTAM pasti pernah merasa cemas dan takut saat ingin memulai aktivitas yang belum pernah dialami, seperti interview di tempat bekerja yang Anda lamar, atau saat ingin berpidato di atas panggung.Perasaan tersebut sebenarnya normal terjadi. Akan tetapi...</p>     
+                                <Link to="/artikel1" className="baca_selengkapnya">Baca Selengkapnya</Link>
                             </div>
                             <button className="previous_btn"> <FaArrowLeft className="FaArrowRight" /> </button>
                             <button className="next_btn"> <FaArrowRight className="FaArrowRight" /></button>
