@@ -7,7 +7,7 @@
     justify-content: center;
 } */
 
-img {
+.stats-outer img {
     height: 72vh;
     width: auto;
 }
