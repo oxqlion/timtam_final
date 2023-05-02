@@ -86,7 +86,7 @@ body{
     top: 20px;
     right: 20px;
     border: none;
-    background-color: #461ad7;
+    background-color: #5f2eea;
     padding: 10px 20px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -177,3 +177,10 @@ body{
     -o-border-radius: 5px;
 }
   
+.btn_play:hover{
+  background-color: #461AD7;
+}
+
+.see_all:hover{
+  background-color: #461AD7;
+}
