@@ -21,9 +21,9 @@ const Games = () =>{
                         <button className="see_all">SEE ALL</button>
                         <div className="second_container_card">
                             <div className="card_games">
-                                <img src="../../assets/karen game.png" alt="" />
-                                <h4>Karen</h4>
-                                <p>If you are longing for San Francisco.</p>
+                                <img src="../../assets/game-preview.png" alt="" />
+                                <h4>Memory Games</h4>
+                                <p>let's try your brain memory.</p>
                                 <p>Rating</p>
                                 <div className="star">
                                 <FaStar className = "FaStar"/>
@@ -32,7 +32,7 @@ const Games = () =>{
                                 <FaStar className = "FaStar"/>
                                 <FaStar className = "FaStar"/>
                                 </div>
-                                <button className="btn_play">Play</button>
+                                <Link to="/memorygame" className="btn_play">Play</Link>                      
                             </div>
                             <div className="card_games">
                                 <img src="../../assets/electricity-bill png.png" alt="" />
