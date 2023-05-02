@@ -53,7 +53,7 @@ function Cards(){
     }
 
     return (
-        <div className="container_card">
+        <div className="container_card_game">
             { items.map((item, index) => (
                 <Card key={index} item={item} id={index} handleClick={handleClick} />
             )) }
