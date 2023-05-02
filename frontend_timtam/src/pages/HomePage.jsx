@@ -1,11 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 import "../pages/HomePage.css";
+import axios from "axios";
 
 const HomePage = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const[user, setUser] = useState(null);
 
   const handlePrevClick = () => {
     setCurrentSlide((prevSlide) => (prevSlide <= 60 ? 750 : prevSlide - 250));
@@ -15,9 +17,18 @@ const HomePage = () => {
     setCurrentSlide((prevSlide) => (prevSlide >= 750 ? 0 : prevSlide + 250));
   };
 
+  useEffect(() => {
+    const getUser = async () => {
+      const response = await axios.get("http://localhost:5000/")
+      console.log("user : ", response.data)
+      setUser(response.data)
+    } 
+    getUser();
+  }, [])
+
   return (
     <div className="outer">
-      <Navbar />
+      <Navbar user={user} />
       <section className="first_section">
         <div className="left">
           <div className="up">

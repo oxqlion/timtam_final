@@ -5,7 +5,8 @@ const router = express.Router();
 
 router.get("/", loggedIn, (req, res) =>{
     if(req.user){
-        res.render("index", {status : "loggedIn", user : req.user});
+        res.json(req.user)
+        // res.render("index", {status : "loggedIn", user : req.user});
     }else{
         res.render("index", {status : "no", user : "nothing"});
     }

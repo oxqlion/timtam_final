@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Montserrat:wght@300;500;700&display=swap");
+
+.jurnal-outer {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.jurnal-saved-outer {
+    border-radius: 12px;
+    height: 60vh;
+    width: 55vw;
+    padding: 20px;
+    background-color: rgb(242, 242, 242);
+    overflow-y: scroll;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.jurnal-saved-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jurnal-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 0 20px 0 0;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.jurnal-input-container input {
+    outline: none;
+    border: none;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.jurnal-input-container textarea {
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 200;
+    height: 40vh;
+    width: 100%;
+}
+
+.jurnal-btn {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    align-items: end;
+    justify-content: end;
+}
+
+.jurnal-btn button {
+    cursor: pointer;
+    border: none;
+    background-color: #461ad7;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    float: right;
+    transition: 0.2s ease-in-out;
+}
+
+.jurnal-btn button:hover {
+     background-color: white;
+     color: #461ad7;
+}
+
+.jurnal-card {
+    background-color: white;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    height: 100%;
+    width: 23vw;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}

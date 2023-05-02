@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../pages/SignIn.css";
+import axios from "axios";
 
 const SignIn = () => {
   const [email, setEmail] = useState("");
@@ -8,11 +9,20 @@ const SignIn = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    console.log("email : ", email, ", password : ", password);
     try {
-      const response = await axios.post("http://example.com/login", {
-        email,
-        password,
-      });
+      const response = await axios.post(
+        "http://localhost:5000/api/login",
+        {
+          email: email,
+          password: password,
+        },
+        {
+          headers: {
+            "Content-type": "application/json",
+          },
+        }
+      );
       console.log(response.data);
     } catch (error) {
       console.error(error);
@@ -55,7 +65,6 @@ const SignIn = () => {
           <p>Don't have an account?</p>
           <Link to="/signup">Sign Up</Link>
         </div>
-
       </div>
     </div>
   );
