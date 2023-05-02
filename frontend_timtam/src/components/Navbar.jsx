@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../components/Navbar.css";
+import axios from "axios";
 
-const Navbar = () => {
+const Navbar = ({ user }) => {
+
   return (
     <div className="navbar_container">
       <div className="logo">
@@ -29,9 +31,11 @@ const Navbar = () => {
         </Link>
       </div>
       <div>
-        <Link className="navbar_btn" to="/signin">
-          Sign In
-        </Link>
+        {user ? (
+          <Link className="navbar_btn" to="/">Sign Out</Link>
+        ) : (
+          <Link className="navbar_btn" to="/signin">Sign In</Link>
+        )}
       </div>
     </div>
   );
