@@ -20,7 +20,7 @@ import Community from "../components/Community";
 import Chat from "../components/Chat";
 
 const Dashboard = () => {
-  const [currentPage, setCurrentPage] = useState("jurnal");
+  const [currentPage, setCurrentPage] = useState("stats");
 
   const handleClick = (page) => {
     setCurrentPage(page);

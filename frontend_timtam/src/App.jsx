@@ -7,6 +7,8 @@ import Dashboard from "./pages/Dashboard";
 import SignIn from "./pages/SignIn";
 import MemoryGame from "./pages/MemoryGame";
 import Article from "./pages/Article";
+import Contact from "./pages/Contact";
+import Stats from "./components/Stats";
 
 function App () {
   return (
@@ -16,7 +18,7 @@ function App () {
         <Route path="/about" element={<About />}/>
         <Route path="/game" element={<Games />}/>
         <Route path="/article" element={<Articles />}/>
-        <Route path="/contact" element={<HomePage />}/>
+        <Route path="/contact" element={<Contact />}/>
         <Route path="/login" element={<HomePage />}/>
         <Route path="/register" element={<HomePage />}/>
         <Route path="/dashboard" element={<Dashboard />}/>
