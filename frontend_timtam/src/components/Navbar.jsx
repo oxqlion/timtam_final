@@ -21,7 +21,7 @@ const Navbar = ({ user }) => {
           Games
         </Link>
         <Link to="/dashboard" className="navbar_link">
-          Notes
+          Dashboard
         </Link>
         <Link to="/article" className="navbar_link">
           Articles
